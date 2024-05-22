@@ -1,3 +1,3 @@
 # vile
 
-A very inflexible note-taking tool.
+A very inflexible list editor.

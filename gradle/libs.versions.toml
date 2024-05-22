@@ -1,0 +1,12 @@
+[versions]
+arrow = "1.2.4"
+kotlin-cli = "0.3.6"
+logback = "1.5.6"
+xodus-dnq = "2.0.0"
+
+[libraries]
+arrow-core = { module = "io.arrow-kt:arrow-core", version.ref = "arrow" }
+arrow-fx-coroutines = { module = "io.arrow-kt:arrow-fx-coroutines", version.ref = "arrow" }
+kotlin-cli = { group = "org.jetbrains.kotlinx", name = "kotlinx-cli", version.ref = "kotlin-cli" }
+logback-classic = { group = "ch.qos.logback", name = "logback-classic", version.ref = "logback" }
+xodus-dnq = { group = "org.jetbrains.xodus", name = "dnq", version.ref = "xodus-dnq" }

@@ -2,6 +2,11 @@ product: jvm/app
 
 dependencies:
   - $compose.desktop.currentOs
+  - $libs.arrow.core
+  - $libs.arrow.fx.coroutines
+  - $libs.kotlin.cli
+  - $libs.logback.classic
+  - $libs.xodus.dnq
 
 settings:
   compose: enabled
